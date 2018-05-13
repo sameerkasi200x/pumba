@@ -132,10 +132,10 @@ OPTIONS:
 $ pumba netem -h
 
 NAME:
-   Pumba netem - delay, loss, duplicate and re-order (run 'netem') packets, to emulate different network problems
+   pumba netem - delay, loss, duplicate and re-order (run 'netem') packets, to emulate different network problems
 
 USAGE:
-   Pumba netem command [command options] [arguments...]
+   pumba netem command [command options] [arguments...]
 
 COMMANDS:
      delay      delay egress traffic
@@ -158,10 +158,10 @@ OPTIONS:
 $ pumba netem delay -h
 
 NAME:
-   Pumba netem delay - delay egress traffic
+   pumba netem delay - delay egress traffic
 
 USAGE:
-   Pumba netem delay [command options] containers (name, list of names, RE2 regex)
+   pumba netem delay [command options] containers (name, list of names, RE2 regex)
 
 DESCRIPTION:
    delay egress traffic for specified containers; networks show variability so it is possible to add random variation; delay variation isn't purely random, so to emulate that there is a correlation
@@ -179,10 +179,10 @@ OPTIONS:
 $ pumba netem loss -h
 
 NAME:
-   Pumba netem loss - adds packet losses
+   pumba netem loss - adds packet losses
 
 USAGE:
-   Pumba netem loss [command options] containers (name, list of names, RE2 regex)
+   pumba netem loss [command options] containers (name, list of names, RE2 regex)
 
 DESCRIPTION:
    adds packet losses, based on independent (Bernoulli) probability model
@@ -197,10 +197,10 @@ OPTIONS:
 $ pumba netem loss-state -h
 
 NAME:
-   Pumba netem loss-state - adds packet losses, based on 4-state Markov probability model
+   pumba netem loss-state - adds packet losses, based on 4-state Markov probability model
 
 USAGE:
-   Pumba netem loss-state [command options] containers (name, list of names, RE2 regex)
+   pumba netem loss-state [command options] containers (name, list of names, RE2 regex)
 
 DESCRIPTION:
    adds a packet losses, based on 4-state Markov probability model
@@ -222,10 +222,10 @@ OPTIONS:
 $ pumba netem loss-gemodel -h
 
 NAME:
-   Pumba netem loss-gemodel - adds packet losses, according to the Gilbert-Elliot loss model
+   pumba netem loss-gemodel - adds packet losses, according to the Gilbert-Elliot loss model
 
 USAGE:
-   Pumba netem loss-gemodel [command options] containers (name, list of names, RE2 regex)
+   pumba netem loss-gemodel [command options] containers (name, list of names, RE2 regex)
 
 DESCRIPTION:
    adds packet losses, according to the Gilbert-Elliot loss model
@@ -242,10 +242,10 @@ OPTIONS:
 $ pumba netem rate -h
 
 NAME:
-   Pumba netem rate - rate limit egress traffic
+   pumba netem rate - rate limit egress traffic
 
 USAGE:
-   Pumba netem rate [command options] containers (name, list of names, RE2 regex)
+   pumba netem rate [command options] containers (name, list of names, RE2 regex)
 
 DESCRIPTION:
    rate limit egress traffic for specified containers
